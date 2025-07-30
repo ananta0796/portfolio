@@ -1,0 +1,35 @@
+.profile {
+  background-color: #f3f3f3;
+  text-align: center;
+  padding: 3rem 1rem;
+  margin: 0;
+}
+
+.profile img {
+  border-radius: 50%;
+  border: 2px solid #333;
+   width: 200px;
+  height: 200px;
+  
+  object-fit: cover;
+}
+
+ .funny-font {
+      font-family: 'Pacifico', cursive;
+    }
+
+ .comic-font {
+   font-family: 'Comic Neue', cursive;
+ }
+
+.profile img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+@media (max-width: 576px) {
+  .profile img {
+    width: 150px;
+    height: 150px;
+  }
+}
