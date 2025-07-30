@@ -33,8 +33,3 @@
     height: 150px;
   }
 }
-@media (max-width: 768px) {
-  .gif-image {
-    display: none;
-  }
-}
